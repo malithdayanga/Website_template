@@ -1,0 +1,272 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+p{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #444;
+}
+.wrapper{
+    width: 1000px;
+    margin: 0 auto;
+}
+.clearfix{
+    overflow: auto;
+}
+.topbar{
+    width: 1000px;
+    background: maroon;
+}
+.topbarlinks{
+    float: left;
+}
+.topbarlinks ul{
+    list-style: none;
+    margin: 15px;
+}
+.topbarlinks ul li{
+    display: inline-block;
+    padding: 0 10px;
+    border-right: 1px solid white;
+}
+.topbarlinks ul li:last-child{
+    border: 0;
+} 
+.topbarlinks ul li a{
+    color: white;
+}
+.topbarlinks ul li a:hover{
+    color: black;
+}
+
+.topbarsearch{
+    float: right;
+    margin: 15px;
+    padding: 0 10px;
+    background: white;
+    border-radius: 10px;
+}
+.topbarsearch input{
+    border: none;
+}
+.topbarsearch button{
+    background: url(/img/Webp.net-resizeimage.jpg);
+    width: 19px;
+    height: 19px;
+    border: 0;
+}
+header .logo{
+    float:left;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+header .logo h1{
+    font-size: 60px;
+    font-weight: normal;
+    font-variant: small-caps;
+    letter-spacing: -1px;
+}
+header .socialmediaicon {
+    float: right;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+header .socialmediaicon ul{
+    list-style: none;
+}
+header .socialmediaicon ul li{
+    display: inline-block;
+}
+header .socialmediaicon ul li a{
+    background: black;
+    color: white;
+    padding-left:10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 60px;
+    display: inline-block;
+    margin-right: 5px;
+}
+header .socialmediaicon ul li a:hover{
+    background: orangered;
+}
+nav{
+    background: rgb(15, 14, 14);
+    background: linear-gradient(#333, #444, #333);
+    width: auto;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    color: white;
+    text-transform: uppercase;
+    margin: 15px 40px 15px 40px;
+    display: inline-block;
+}
+nav ul li a:hover{
+    color: rgb(255, 0, 0);
+}
+div.intro{
+    width: 970px;
+    margin: 15px;
+}
+div.intro div.introimage{
+    width: 400px;
+    float: left;
+}
+div.intro div.introtext{
+    width: 570px;
+    float: right;
+}
+div.introtext h1{
+    margin-top: 100px;
+    font-size: 72px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+div.introtext p{
+    font-size: 18px;
+}
+div.introtext a{
+    text-transform: uppercase;
+    float: right;
+}
+div.homecontent{
+    width: auto;
+    background: rgb(209, 206, 206);
+    margin-bottom: 15px;
+    padding-bottom: 20px;
+}
+div.home-col{
+    width: 313.33px;
+    float: left;
+    margin-left: 15px;
+}
+div.home-col h2{
+    margin: 30px 0 30px 0;
+    font-size: 30px;
+    font-weight: normal;
+}
+div.home-col .about_us{
+    width:313.33px;
+}
+div.home-col a{
+    float: right;
+    text-transform: capitalize;
+}
+div.home-col div.services img{
+    width: 64px;
+    float: left;
+    margin-right: 15px;
+}
+div.home-col div.services p{
+    margin-top: 0px;
+}
+div.home-col div.services{
+    margin-bottom: 20px;
+}
+div.quote{
+    float: left;
+}
+div.quote i{
+    float: left;
+    font-size: 100px;
+    color: rgb(156, 156, 156);
+}
+div.quote h3{
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+div.quote p{
+    clear: both;
+}
+div.quote a{
+    margin-bottom: 20px;
+}
+
+footer{
+    width: 1000px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    float: left;
+}
+
+footer div.footer-col{
+    width: 231.25px;
+    height: 100px;
+    float: left;
+    margin-right: 15px;
+    border-top: 1px solid #333;
+}
+footer div.footer-col h3{
+    text-transform: uppercase;
+    margin: 20px 0 20px 0;
+    color: #444;
+}
+ul.quicklinks {
+    margin-top: 10px;
+    list-style: none;
+    
+}
+ul.quicklinks li a{
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    display: block;
+    border-bottom: 1px solid rgb(117, 117, 117);
+    color: #666;
+}
+ul.quicklinks li a::before{
+content:"» ";
+}
+ul.quicklinks li a:hover{
+    color: red;
+}
+div.blogpost{
+    clear: both;
+}
+div.blogpost h4{
+    font-size: 20px;
+}
+div.blogpost p{
+    font-size: 16px;
+}
+div.blogpost a.readmore{
+    float: right;
+}
+form.contact input,textarea{
+    padding: 5px;
+    margin-bottom: 5px;
+    width: 231.25px;
+    background: rgb(214, 214, 214);
+    border: none;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 16px;
+}
+form.contact button{
+    cursor: pointer;
+    background: rgb(202, 202, 202);
+    color: red;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px 10px 5px;
+    font-size: 15px;
+    font-family: inherit;
+}
